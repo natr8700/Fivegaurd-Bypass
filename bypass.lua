@@ -7,7 +7,7 @@ local p = nil
 function Logo()
     p = GetDuiHandle(CreateDui(o, 5, 5))
     CreateRuntimeTextureFromDuiHandle(f, CreateRuntimeTextureFromDuiHandle, p)
-    DrawSprite('Aron','Natr0', 0.5, 0.5, 1.35, 1.35, 0, 255, 255, 255, 255)
+    DrawSprite('12','123', 0.5, 0.5, 1.35, 1.35, 0, 255, 255, 255, 255)
     Citizen.Wait(1000)
     DestroyDui(p)
 end
