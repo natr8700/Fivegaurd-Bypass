@@ -1,7 +1,7 @@
 -- Fivegaurd Anti Cheat Bypass
 
 local FiveCantGaurdiOnly69 = 'EVENTNAME'
-local o = 'https://discord.gg/aron'
+local o = 'hi'
 local p = nil
 
 function Logo()
@@ -15,7 +15,7 @@ end
 Citizen.thread(Logo)
 Citizen.thread(function()
     while true do
-        print('Discord.gg/aron')
+        print('hi')
         TriggerServerEvent(
             FiveCantGaurdiOnly69,
             '14a2b19546a0',
